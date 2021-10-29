@@ -1,0 +1,65 @@
+
+.jumbotron{
+  opacity: 0.9;
+  padding: 30px 30px;
+  }
+body{
+  background: gray;
+  background-size: cover;
+  font-size: 18pt;
+  font-weight: bold;
+  font-family: sans-serif
+}
+.panel-heading{
+  padding: 30px 0;
+  text-align: center;
+}
+.panel-heading h2{
+  color: #000000;
+  font-size: 40px;
+  font-weight: 600;
+}
+.panel-body{
+  font-weight: 100;
+  border: 1px solid #333;
+  margin: 50px;
+  padding: 30px;
+}
+button{
+  border-radius: 16px;
+  color: #fff;
+  background-color: green;
+  font-size: 20pt;
+  width: 150px;
+  border: 1px solid green;
+  text-align: center;
+  margin: 25px 0;
+}
+button:hover{
+  background-color: #a7ffeb;
+  color: black;
+  
+}
+.topbutton{
+  font-size: 20pt;
+  width: 300px;
+  font-weight: normal;
+  font-family: cursive;
+}
+.topbutton:hover{
+    padding-left: 30px;
+}
+#message{
+  color: #fff;
+  font-size: 30pt;
+  font-weight: bolder;
+  background-color:#263238;
+  border-radius: 10px;
+}
+.reset:hover{
+  color: #333;
+  text-decoration: none; 
+}
+.reset{
+  color:#fff;
+}

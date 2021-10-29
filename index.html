@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Quiz boards</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <div class="panel panel-info"> 
+      <div class="panel-heading"> 
+      <h2 class="panel-title">QUIZ BOARD</h2> 
+      </div> 
+    <div class="panel-body"> 
+      <!--  quiz form -->
+<form id="questions" name="questions" class="somaliquiz">
+  <p id="top"></p>
+  <p>1. Goormee Somaliya Xoriyada Qaadate?</p>
+    <input type="radio" name="question1" value="0">1970<br>
+    <input type="radio" name="question1" value="0">1969<br>
+    <input type="radio" name="question1" value="0">1956<br>
+    <input type="radio" name="question1" value="answer">1960<br>
+  <p>2. Somali Meeqo Gobol Ayee Ka Kooban Tahay?</p>
+  <input type="radio" name="question2" value="0">17 Gobol<br>
+  <input type="radio" name="question2" value="0">16 Gobol<br>
+  <input type="radio" name="question2" value="0">20 Gobol<br>
+  <input type="radio" name="question2" value="answer">18 Gobol<br>
+  <p>3. Goormee Laqoray Farta Somaliya?</p>
+  <input type="radio" name="question3" value="0">1970<br>
+  <input type="radio" name="question3" value="0">1982<br>
+  <input type="radio" name="question3" value="answer">1972<br>
+  <input type="radio" name="question3" value="0">1991<br>
+  <p>4. Qaaradee Somaliya Ka Tirsan Tahay?</p>
+  <input type="radio" name="question4" value="0">Asia<br>
+  <input type="radio" name="question4" value="0">America<br>
+  <input type="radio" name="question4" value="answer">Africa<br>
+  <input type="radio" name="question4" value="0">Australia<br>
+  <p>5. Gobolka benaadir meeqo dagmo ayuu ka kooban yahay?</p>
+  <input type="radio" name="question5" value="answer">16 dagmo<br>
+  <input type="radio" name="question5" value="0">10 dagmo<br>
+  <input type="radio" name="question5" value="">18 dagmo<br>
+  <input type="radio" name="question5" value="0">14 dagmo<br>
+  <p>6. caasimada labaad ee dalka somalia?</p>
+  <input type="radio" name="question6" value="0">kismaayo<br>
+  <input type="radio" name="question6" value="0">galmudug<br>
+  <input type="radio" name="question6" value="answer">hargeysa<br>
+  <input type="radio" name="question6" value="0">sudan<br>
+  <p>7. madax weynaha soomaliyo 2017 - 2021?</p>
+  <input type="radio" name="question7" value="0">xasan sheik maxamuud<br>
+  <input type="radio" name="question7" value="0">sheik shariif xsan<br>
+  <input type="radio" name="question7" value="answer">maxamed c'llahi farmaajo<br>
+  <input type="radio" name="question7" value="0">craxman cabdi shakur<br>
+  <p>8. somaliya meeqo luqad ayaa looga hadlaa?</p>
+  <input type="radio" name="question8" value="answer">1 luqad<br>
+  <input type="radio" name="question8" value="0">2 luqadd<br>
+  <input type="radio" name="question8" value="0">4 luqad<br>
+  <input type="radio" name="question8" value="0">5 luqad<br>
+  <p>9. somaliya badee marto ?</p>
+  <input type="radio" name="question9" value="0">spacif ocean<br>
+  <input type="radio" name="question9" value="answer">india ocean<br>
+  <input type="radio" name="question9" value="0">atlantic ocean<br>
+  <input type="radio" name="question9" value="0">arctic ocean<br>
+  <p>10. Somaliya Meeqo Wabi Ayaa Marto?</p>
+  <input type="radio" name="question10" value="0">1 Wabi<br>
+  <input type="radio" name="question10" value="0">3 Wabi<br>
+  <input type="radio" name="question10" value="answer">2 Wabi<br>
+  <input type="radio" name="question10" value="0">4 Wabi<br> 
+  <div class="panel-footer"> 
+  <button id="submit1" type="submit" name="button">Submit</button>
+  <button type="reset" name="button"> <a href="#top" class="reset">Retake</a> </button>
+  </div>
+ </form>
+<!--  quiz results display -->
+      <div class="move">
+        <p id="message"></p>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
