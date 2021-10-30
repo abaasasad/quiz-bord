@@ -1,5 +1,4 @@
-# quiz-bord
-# quiz-project.
+# quiz-bord project
 
 ## Authors
 - [abaas_it](https://github.com/abaasasad)
